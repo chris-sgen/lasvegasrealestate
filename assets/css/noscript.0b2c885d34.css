@@ -1,0 +1,6 @@
+.drawer[hidden] { display: block !important; position: static; background: none; }
+.drawer .drawer__panel { width: 100%; height: auto; animation: none; box-shadow: none; }
+.drawer [data-drawer-close] { display: none; }
+@media (min-width: 83em) { .drawer[hidden] { display: none !important; } }
+.listings__fallback[hidden] { display: grid !important; }
+.listings[data-listings] { display: none; }

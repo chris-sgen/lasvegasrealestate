@@ -1,0 +1,886 @@
+{
+  "disclosure": "Unofficial redesign preview of lasvegasrealestate.com. Not operated by, affiliated with or endorsed by LasVegasRealEstate.com, its operator Americana Internet Ventures, LLC, The Woodcock Real Estate Group or Berkshire Hathaway HomeServices Nevada Properties.",
+  "preview": {
+    "url": "https://chris-sgen.github.io/lasvegasrealestate/",
+    "repository": "https://github.com/chris-sgen/lasvegasrealestate",
+    "path": "/lasvegasrealestate/"
+  },
+  "live": "https://www.lasvegasrealestate.com",
+  "snapshot": {
+    "livePages": 365,
+    "readOn": "6 October 2026, between 10:09 and 10:23 UTC (03:09 to 03:23 in Las Vegas)",
+    "archivedPages": 17,
+    "archivedPagesMadeBetween": "22 October 2020 and 12 April 2026",
+    "archivedPictures": 1125,
+    "archivedPicturesMadeBetween": "29 March 2019 and 27 October 2025",
+    "archivedStylesheets": 60,
+    "picturesWithNoCopy": 474
+  },
+  "pages": {
+    "total": 502,
+    "rebuilt": 500,
+    "madeByTheBuild": [
+      "/404.html",
+      "/search/"
+    ]
+  },
+  "hardening": {
+    "robots": "noindex, nofollow, noarchive, nosnippet, noimageindex",
+    "robotsTagPages": 502,
+    "jsonLdBlocksRemoved": 1530,
+    "pictureTagsRemoved": 1004,
+    "iconLinksRemoved": 1506,
+    "cardTitlesMarked": 502,
+    "twitterDescriptionsAdded": 159,
+    "formsOfTheBusiness": {
+      "forms": 9,
+      "pages": [
+        "/commercial-property-listing/",
+        "/contact-us/",
+        "/las-vegas-commercial-buyers/",
+        "/las-vegas-commercial-real-estate-search/",
+        "/property-listing/",
+        "/realtor-referral/",
+        "/sell-commercial-property/",
+        "/sell-multifamily-property/",
+        "/sell-residential-property/"
+      ]
+    },
+    "signUpBoxes": 502,
+    "buttonsDisabled": 511,
+    "guardsAdded": 1022,
+    "listingWidgetsNotLoaded": 49,
+    "pagesWithAStandInPanel": 49,
+    "wrapperPagesNotShipped": [
+      "/idx/account/",
+      "/idx/address/",
+      "/idx/details/",
+      "/idx/email-update-signup/",
+      "/idx/featured/",
+      "/idx/featured-virtual-tours/",
+      "/idx/",
+      "/idx/listing-id/",
+      "/idx/results/",
+      "/idx/search/",
+      "/idx/search-advance/"
+    ],
+    "notShown": {
+      "listing photographs of particular homes": 363,
+      "agent video stills": 57,
+      "guest author photograph": 4,
+      "photograph with a picture agency's watermark": 11,
+      "team photograph": 9,
+      "introduction film": 1
+    },
+    "filmsOfAVideoSite": [
+      "/55-retirement-communities-siena/",
+      "/a-history-of-summerlin/",
+      "/a-history-of-summerlin-in-las-vegas-nevada/",
+      "/check-out-lasvegasrealestate-com/",
+      "/homes-in-henderson/legacy-henderson/",
+      "/homes-in-las-vegas/sun-city-summerlin-las-vegas/",
+      "/industrial-real-estate-in-las-vegas-nevada/",
+      "/investment-properties-in-las-vegas/",
+      "/legacy-in-henderson-nevada/",
+      "/multi-family-properties/",
+      "/multi-family-real-estate-in-las-vegas/",
+      "/siena-55-community-in-las-vegas/",
+      "/sun-city-summerlin/"
+    ],
+    "filmNotes": 14,
+    "linksToTheLiveSiteForTheBusinessAddress": 76,
+    "tagLinksKept": 29,
+    "marksTakenOffLinks": [
+      {
+        "page": "/5-easy-spring-patio-upgrades/",
+        "host": "www.overstock.com",
+        "marks": [
+          "cid",
+          "kid",
+          "track",
+          "utm_source",
+          "utm_medium",
+          "utm_campaign",
+          "pos",
+          "tid",
+          "gclid",
+          "gclsrc",
+          "dclid"
+        ]
+      },
+      {
+        "page": "/buying-your-first-home-a-steep-learning-curve/",
+        "host": "www.lasvegasrealestate.com",
+        "marks": [
+          "__hstc",
+          "__hssc",
+          "__hsfp"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/desert-shores-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/iron-mountain-ranch/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/iron-mountain-ranch/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/iron-mountain-ranch/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/los-prados-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sxsrf",
+          "ei",
+          "oq",
+          "gs_lcp",
+          "sclient",
+          "ved",
+          "uact"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/los-prados-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/los-prados-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/monaco-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sxsrf",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/mountains-edge-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/queens-ridge-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/siena-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/siena-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/siena-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/skye-canyon-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/skye-canyon-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/southern-highlands-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/southern-highlands-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/spanish-trail-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/homes-in-las-vegas/spanish-trail-las-vegas/",
+        "host": "www.google.com",
+        "marks": [
+          "sa",
+          "ved"
+        ]
+      },
+      {
+        "page": "/stuck-at-home-might-as-well-spring-clean/",
+        "host": "www.amazon.com",
+        "marks": [
+          "qid",
+          "sr"
+        ]
+      },
+      {
+        "page": "/stuck-at-home-might-as-well-spring-clean/",
+        "host": "www.amazon.com",
+        "marks": [
+          "qid",
+          "sr"
+        ]
+      },
+      {
+        "page": "/stuck-at-home-might-as-well-spring-clean/",
+        "host": "www.amazon.com",
+        "marks": [
+          "qid",
+          "sr"
+        ]
+      },
+      {
+        "page": "/summer-gardening-for-condo-owners-is-a-thing/",
+        "host": "www.google.com",
+        "marks": [
+          "rlz",
+          "source",
+          "sa",
+          "ved",
+          "biw",
+          "bih"
+        ]
+      },
+      {
+        "page": "/summer-gardening-for-condo-owners-is-a-thing/",
+        "host": "www.burpee.com",
+        "marks": [
+          "gclid"
+        ]
+      }
+    ],
+    "linksThatKeepOnlyTheirWords": [
+      {
+        "page": "/should-i-defer-my-mortgage-payment/",
+        "what": "e-mail campaign click tracker"
+      }
+    ],
+    "footerCopyrightLinesKept": 502,
+    "listingSearchLines": 2,
+    "liveTextNotes": [
+      "/privacy-terms-policy/"
+    ],
+    "affiliateRedirectsPointedAtTheirDestination": [
+      {
+        "page": "/summer-gardening-for-condo-owners-is-a-thing/",
+        "from": "shareasale.com",
+        "to": "www.naturehills.com"
+      }
+    ],
+    "mapFrames": 505,
+    "canonicalRemoved": [
+      "/404.html",
+      "/search/"
+    ],
+    "notShipped": [
+      "llms.txt",
+      "sitemap.xml",
+      "_redirects"
+    ],
+    "replaced": [
+      "robots.txt"
+    ],
+    "cssComments": 204,
+    "jsComments": 121,
+    "toolingHelperRemoved": 501,
+    "unreferencedFilesNotShipped": 310,
+    "fontLicences": [
+      "assets/fonts/OFL-Archivo.txt",
+      "assets/fonts/OFL-DM-Mono.txt",
+      "assets/fonts/OFL-Hanken-Grotesk.txt"
+    ]
+  },
+  "verification": {
+    "local": {
+      "generated": "2026-10-14T10:34:20.812Z",
+      "verdict": "PASS",
+      "browser": "Chrome/155.0.8059.79",
+      "filesNote": "count.files was taken before README.md, PROVENANCE.md and PROVENANCE.json were written; the published tree holds those three more",
+      "count": {
+        "files": 2062,
+        "pages": 502,
+        "references": 166467,
+        "localReferences": 153700,
+        "frames": 505,
+        "canonical": 500,
+        "businessForms": 9,
+        "formPages": 9,
+        "newsForms": 502,
+        "searchForms": {
+          "sale.lasvegasrealestate.com": 2,
+          "this copy's own search": 1
+        },
+        "liveLinks": 601,
+        "liveAddressLinks": 85,
+        "listingServiceLinks": 510,
+        "outsideLinks": 4605,
+        "panels": 49,
+        "filmNotes": 14,
+        "videoPages": 0,
+        "webp": 1528,
+        "mp4": 12,
+        "woff2": 8,
+        "fontLicences": 3,
+        "textFiles": 514,
+        "indexEntries": 306,
+        "loads": 1003,
+        "picturesLoaded": 9256,
+        "loops": 6,
+        "formTrials": 88,
+        "listingNotes": 2,
+        "colourProfiles": 1528
+      },
+      "forms": {
+        "targets": 11,
+        "trials": 88,
+        "controlsSeen": 22,
+        "enterPressed": 22,
+        "buttonClicked": 22
+      },
+      "search": {
+        "results": 20,
+        "outside": 0
+      },
+      "loopPages": [
+        "/commercial-opportunities-virtually-endless/",
+        "/discover-las-vegas/",
+        "/home-in-las-vegas-residential/",
+        "/",
+        "/military-relocating-to-las-vegas/",
+        "/retire-2-las-vegas-landing/"
+      ],
+      "notFound": {
+        "status": 404,
+        "css": true,
+        "h1": 1,
+        "broken": 0
+      }
+    },
+    "selftest": {
+      "generated": "2026-10-14T10:25:34.528Z",
+      "defects": 117,
+      "plants": 132,
+      "caught": 132,
+      "rules": {
+        "all": 169,
+        "static": 119,
+        "staticExercised": 111,
+        "staticNotExercised": [
+          "the script cannot be read for comments",
+          "the search index cannot be read",
+          "the search index is not a list of entries",
+          "a film without picture data",
+          "the font's name records cannot be read",
+          "a font file that does not name its project",
+          "missing (the host would answer an unknown address with its own page)",
+          "missing (run preview-docs.mjs)"
+        ],
+        "browser": 20,
+        "formTrials": 12,
+        "publicAddress": 18
+      }
+    },
+    "gate": {
+      "verdict": "NOT-READY",
+      "pass": 20,
+      "fail": [
+        "C02",
+        "C07",
+        "C09",
+        "C10",
+        "C16",
+        "C17",
+        "C20",
+        "C21"
+      ],
+      "unproven": [
+        "C22"
+      ]
+    }
+  },
+  "generatedMedia": [
+    {
+      "id": "still-palm-wall",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [],
+      "pages": [],
+      "loopFrame": false,
+      "shows": null
+    },
+    {
+      "id": "loop-palm-wall",
+      "kind": "loop",
+      "madeWith": "Higgsfield, kling-video/o3/first-last-frame",
+      "leads": [],
+      "pages": [],
+      "loopFrame": false,
+      "shows": null
+    },
+    {
+      "id": "still-pool-edge",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [
+        "/water-parks-and-pools/"
+      ],
+      "pages": [
+        "/indoor-playgrounds-and-trampoline-centers/",
+        "/museums-and-farms-for-kids/",
+        "/on-strip-kids-entertainment/",
+        "/water-parks-and-pools/"
+      ],
+      "loopFrame": false,
+      "shows": "the edge of a swimming pool"
+    },
+    {
+      "id": "loop-pool-edge",
+      "kind": "loop",
+      "madeWith": "Higgsfield, kling-video/o3/first-last-frame",
+      "leads": [
+        "/discover-las-vegas/"
+      ],
+      "pages": [
+        "/discover-las-vegas/"
+      ],
+      "loopFrame": false,
+      "shows": "the edge of a swimming pool"
+    },
+    {
+      "id": "still-curtain-window",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [
+        "/las-vegas-rental-search/",
+        "/las-vegas-rentals/"
+      ],
+      "pages": [
+        "/blog/page/10/",
+        "/category/residential-buyer-tips/",
+        "/las-vegas-rental-search/",
+        "/las-vegas-rentals/",
+        "/tag/lasvegasrealestate-com/",
+        "/tag/lasvegasrealestate/",
+        "/tag/lasvegasrentals/",
+        "/tag/lasvegasrenters/",
+        "/tag/ownvsrent/",
+        "/tag/rentals/",
+        "/tag/renting/",
+        "/tag/rentvsown/"
+      ],
+      "loopFrame": false,
+      "shows": "an open window with a curtain in an empty room"
+    },
+    {
+      "id": "loop-curtain-window",
+      "kind": "loop",
+      "madeWith": "Higgsfield, kling-video/o3/first-last-frame",
+      "leads": [
+        "/home-in-las-vegas-residential/"
+      ],
+      "pages": [
+        "/home-in-las-vegas-residential/"
+      ],
+      "loopFrame": false,
+      "shows": "an open window with a curtain in an empty room"
+    },
+    {
+      "id": "still-colonnade-water",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [
+        "/industrial-real-estate-in-las-vegas-nevada/",
+        "/multi-family-properties/"
+      ],
+      "pages": [
+        "/commercial-opportunities-virtually-endless/",
+        "/home-in-las-vegas-residential/",
+        "/industrial-real-estate-in-las-vegas-nevada/",
+        "/multi-family-properties/"
+      ],
+      "loopFrame": false,
+      "shows": "a colonnade beside still water"
+    },
+    {
+      "id": "loop-colonnade-water",
+      "kind": "loop",
+      "madeWith": "Higgsfield, kling-video/o3/first-last-frame",
+      "leads": [
+        "/commercial-opportunities-virtually-endless/"
+      ],
+      "pages": [
+        "/commercial-opportunities-virtually-endless/"
+      ],
+      "loopFrame": false,
+      "shows": "a colonnade beside still water"
+    },
+    {
+      "id": "still-patio-shade",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [
+        "/pension-exemptions-retirement-income/",
+        "/retirement-communities-world-class/"
+      ],
+      "pages": [
+        "/pension-exemptions-retirement-income/",
+        "/retirement-communities-world-class/"
+      ],
+      "loopFrame": false,
+      "shows": "two loungers in the shade of a pergola"
+    },
+    {
+      "id": "loop-patio-shade",
+      "kind": "loop",
+      "madeWith": "Higgsfield, kling-video/o3/first-last-frame",
+      "leads": [
+        "/retire-2-las-vegas-landing/"
+      ],
+      "pages": [
+        "/retire-2-las-vegas-landing/"
+      ],
+      "loopFrame": false,
+      "shows": "two loungers in the shade of a pergola"
+    },
+    {
+      "id": "still-boxes-light",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [
+        "/moving-to-a-new-home-with-pets/"
+      ],
+      "pages": [
+        "/blog/page/3/",
+        "/category/las-vegas-real-estate-blog/page/2/",
+        "/moving-to-a-new-home-with-pets/",
+        "/tag/moving-to-a-new-home-with-pets/"
+      ],
+      "loopFrame": false,
+      "shows": "moving boxes in an empty room"
+    },
+    {
+      "id": "loop-boxes-light",
+      "kind": "loop",
+      "madeWith": "Higgsfield, kling-video/o3/first-last-frame",
+      "leads": [
+        "/military-relocating-to-las-vegas/"
+      ],
+      "pages": [
+        "/military-relocating-to-las-vegas/"
+      ],
+      "loopFrame": false,
+      "shows": "moving boxes in an empty room"
+    },
+    {
+      "id": "still-keys-ledge",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [
+        "/5-las-vegas-home-buyer-traps-avoid-them/",
+        "/credit-score-to-buy-house/",
+        "/first-time-las-vegas-home-buyer/",
+        "/home-is-possible-for-teachers/",
+        "/sell-residential-property/"
+      ],
+      "pages": [
+        "/5-las-vegas-home-buyer-traps-avoid-them/",
+        "/blog/page/11/",
+        "/blog/page/12/",
+        "/category/las-vegas-real-estate-blog/page/10/",
+        "/category/las-vegas-real-estate-blog/page/9/",
+        "/credit-score-to-buy-house/",
+        "/first-time-las-vegas-home-buyer/",
+        "/home-is-possible-for-teachers/",
+        "/sell-residential-property/",
+        "/tag/credit-score/",
+        "/tag/first-time-las-vegas-home-buyer/",
+        "/tag/home-is-possible-for-teachers/",
+        "/tag/las-vegas-home-buyer/"
+      ],
+      "loopFrame": false,
+      "shows": "a key on a sunlit ledge"
+    },
+    {
+      "id": "still-plan-desk",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [
+        "/common-real-estate-terms/",
+        "/economic-news/",
+        "/investing-in-real-estate/",
+        "/las-vegas-apartment-market-trends-2020-q1/",
+        "/las-vegas-real-estate-sellers-guide/",
+        "/nevada-housing-market-update-july-2019/",
+        "/nevada-housing-market-update/",
+        "/resale-housing-population-growth/",
+        "/selling-your-las-vegas-home/",
+        "/winter-home-selling-tips/"
+      ],
+      "pages": [
+        "/blog/page/12/",
+        "/blog/page/13/",
+        "/blog/page/3/",
+        "/blog/page/8/",
+        "/blog/page/9/",
+        "/category/las-vegas-real-estate-blog/page/10/",
+        "/category/las-vegas-real-estate-blog/page/2/",
+        "/category/las-vegas-real-estate-blog/page/7/",
+        "/category/las-vegas-real-estate-blog/page/8/",
+        "/common-real-estate-terms/",
+        "/economic-news/",
+        "/investing-in-real-estate/",
+        "/las-vegas-apartment-market-trends-2020-q1/",
+        "/las-vegas-real-estate-sellers-guide/",
+        "/nevada-housing-market-update-july-2019/",
+        "/nevada-housing-market-update/",
+        "/resale-housing-population-growth/",
+        "/selling-your-las-vegas-home/",
+        "/tag/common-real-estate-terms/",
+        "/tag/investing-in-real-estate/",
+        "/tag/las-vegas-apartment/",
+        "/tag/las-vegas-home/",
+        "/tag/nevada-housing-market-update/",
+        "/tag/nevada-housing-market-update/page/2/",
+        "/tag/winter-home-selling-tips/",
+        "/winter-home-selling-tips/"
+      ],
+      "loopFrame": false,
+      "shows": "a floor plan and a pencil on a desk"
+    },
+    {
+      "id": "still-blue-door",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [
+        "/should-i-renovate-or-remodel-my-home-before-selling/"
+      ],
+      "pages": [
+        "/blog/page/12/",
+        "/category/las-vegas-real-estate-blog/page/10/",
+        "/should-i-renovate-or-remodel-my-home-before-selling/",
+        "/tag/renovate-or-remodel/"
+      ],
+      "loopFrame": false,
+      "shows": "a blue door in a plaster wall"
+    },
+    {
+      "id": "still-desk-phone",
+      "kind": "still",
+      "madeWith": "fal.ai, nano-banana-pro",
+      "leads": [
+        "/commercial-property-listing/",
+        "/contact-us/",
+        "/las-vegas-commercial-real-estate-search/",
+        "/property-listing/",
+        "/realtor-referral/",
+        "/sell-commercial-property/",
+        "/sell-multifamily-property/"
+      ],
+      "pages": [
+        "/commercial-property-listing/",
+        "/contact-us/",
+        "/las-vegas-commercial-real-estate-search/",
+        "/property-listing/",
+        "/realtor-referral/",
+        "/sell-commercial-property/",
+        "/sell-multifamily-property/"
+      ],
+      "loopFrame": false,
+      "shows": "a notebook, a cup and a phone on a desk by a window"
+    },
+    {
+      "id": "still-breeze-block",
+      "kind": "still",
+      "madeWith": "Higgsfield, alibaba/qwen-image-3/text-to-image",
+      "leads": [
+        "/indoor-playgrounds-and-trampoline-centers/",
+        "/las-vegas-libraries/",
+        "/las-vegas-offers-shows-and-entertainment/",
+        "/las-vegas-real-estate-news/",
+        "/las-vegas-valley/",
+        "/museums-and-farms-for-kids/",
+        "/on-strip-kids-entertainment/",
+        "/understanding-nevada-property-taxes/"
+      ],
+      "pages": [
+        "/blog/page/8/",
+        "/category/las-vegas-real-estate-blog/page/7/",
+        "/economic-news/",
+        "/indoor-playgrounds-and-trampoline-centers/",
+        "/las-vegas-libraries/",
+        "/las-vegas-offers-shows-and-entertainment/",
+        "/las-vegas-real-estate-news/",
+        "/las-vegas-valley/",
+        "/museums-and-farms-for-kids/",
+        "/on-strip-kids-entertainment/",
+        "/tag/las-vegas-real-estate-news/",
+        "/tag/understanding-nevada-property-taxes/",
+        "/understanding-nevada-property-taxes/",
+        "/water-parks-and-pools/"
+      ],
+      "loopFrame": false,
+      "shows": "a breeze-block wall and its shadow"
+    },
+    {
+      "id": "still-agave-wall",
+      "kind": "still",
+      "madeWith": "Higgsfield, alibaba/qwen-image-3/text-to-image",
+      "leads": [
+        "/las-vegas-parks/",
+        "/summer-gardening-for-condo-owners-is-a-thing/"
+      ],
+      "pages": [
+        "/blog/page/3/",
+        "/category/las-vegas-real-estate-blog/page/2/",
+        "/las-vegas-parks/",
+        "/summer-gardening-for-condo-owners-is-a-thing/",
+        "/tag/summer-gardening-condo-owners/"
+      ],
+      "loopFrame": false,
+      "shows": "an agave against a plaster wall"
+    },
+    {
+      "id": "still-stair-light",
+      "kind": "still",
+      "madeWith": "Higgsfield, alibaba/qwen-image-3/text-to-image",
+      "leads": [
+        "/basic-federal-housing-protections-information/"
+      ],
+      "pages": [
+        "/basic-federal-housing-protections-information/",
+        "/blog/page/3/",
+        "/category/las-vegas-real-estate-blog/page/2/",
+        "/tag/basic-federal-housing-protections-information/"
+      ],
+      "loopFrame": false,
+      "shows": "a stair lit by the sun"
+    },
+    {
+      "id": "still-dusk-ridge-a",
+      "kind": "still",
+      "madeWith": "Higgsfield, higgsfield-ai/soul/v2/standard",
+      "leads": [],
+      "pages": [],
+      "loopFrame": false,
+      "shows": null
+    },
+    {
+      "id": "still-dusk-wall-b",
+      "kind": "still",
+      "madeWith": "Higgsfield, alibaba/qwen-image-3/text-to-image",
+      "leads": [],
+      "pages": [],
+      "loopFrame": false,
+      "shows": null
+    },
+    {
+      "id": "still-dusk-wall-c",
+      "kind": "still",
+      "madeWith": "Higgsfield, higgsfield-ai/soul/v2/standard",
+      "leads": [],
+      "pages": [],
+      "loopFrame": false,
+      "shows": null
+    },
+    {
+      "id": "still-dusk-wall-d",
+      "kind": "still",
+      "madeWith": "Higgsfield, higgsfield-ai/soul/v2/standard",
+      "leads": [],
+      "pages": [],
+      "loopFrame": false,
+      "shows": null
+    },
+    {
+      "id": "still-dusk-wall-e",
+      "kind": "still",
+      "madeWith": "Higgsfield, higgsfield-ai/soul/v2/standard",
+      "leads": [],
+      "pages": [],
+      "loopFrame": true,
+      "shows": "a lit plaster wall with two palms beside a still pool, at dusk"
+    },
+    {
+      "id": "loop-dusk-wall",
+      "kind": "loop",
+      "madeWith": "Higgsfield, kling-video/o3/first-last-frame",
+      "leads": [
+        "/"
+      ],
+      "pages": [
+        "/"
+      ],
+      "loopFrame": false,
+      "shows": "a lit plaster wall with two palms beside a still pool, at dusk"
+    }
+  ]
+}
