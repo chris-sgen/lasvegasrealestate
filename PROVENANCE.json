@@ -361,12 +361,12 @@
   },
   "verification": {
     "local": {
-      "generated": "2026-10-14T10:34:20.812Z",
+      "generated": "2026-10-14T11:01:03.801Z",
       "verdict": "PASS",
       "browser": "Chrome/155.0.8059.79",
-      "filesNote": "count.files was taken before README.md, PROVENANCE.md and PROVENANCE.json were written; the published tree holds those three more",
+      "filesBesideTheDocuments": 2062,
       "count": {
-        "files": 2062,
+        "files": 2065,
         "pages": 502,
         "references": 166467,
         "localReferences": 153700,
@@ -390,7 +390,7 @@
         "mp4": 12,
         "woff2": 8,
         "fontLicences": 3,
-        "textFiles": 514,
+        "textFiles": 517,
         "indexEntries": 306,
         "loads": 1003,
         "picturesLoaded": 9256,
@@ -426,7 +426,7 @@
       }
     },
     "selftest": {
-      "generated": "2026-10-14T10:25:34.528Z",
+      "generated": "2026-10-14T10:52:12.095Z",
       "defects": 117,
       "plants": 132,
       "caught": 132,
@@ -447,6 +447,28 @@
         "browser": 20,
         "formTrials": 12,
         "publicAddress": 18
+      }
+    },
+    "publicAddress": {
+      "generated": "2026-10-14T11:15:06.556Z",
+      "verdict": "PASS",
+      "pages": 501,
+      "files": 185,
+      "identical": 686,
+      "notFound": {
+        "status": 404,
+        "isThePage": true
+      },
+      "forms": {
+        "targets": 11,
+        "trials": 88,
+        "controlsSeen": 22,
+        "enterPressed": 22,
+        "buttonClicked": 22
+      },
+      "search": {
+        "results": 20,
+        "outside": 0
       }
     },
     "gate": {
