@@ -449,6 +449,28 @@
         "publicAddress": 18
       }
     },
+    "publicAddress": {
+      "generated": "2026-10-15T06:58:25.669Z",
+      "verdict": "PASS",
+      "pages": 501,
+      "files": 185,
+      "identical": 686,
+      "notFound": {
+        "status": 404,
+        "isThePage": true
+      },
+      "forms": {
+        "targets": 11,
+        "trials": 88,
+        "controlsSeen": 22,
+        "enterPressed": 22,
+        "buttonClicked": 22
+      },
+      "search": {
+        "results": 20,
+        "outside": 0
+      }
+    },
     "gate": {
       "verdict": "NOT-READY",
       "pass": 20,
