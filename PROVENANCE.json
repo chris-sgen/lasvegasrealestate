@@ -349,7 +349,7 @@
     "replaced": [
       "robots.txt"
     ],
-    "cssComments": 225,
+    "cssComments": 228,
     "jsComments": 121,
     "toolingHelperRemoved": 501,
     "unreferencedFilesNotShipped": 310,
@@ -361,7 +361,7 @@
   },
   "verification": {
     "local": {
-      "generated": "2026-10-15T05:56:06.420Z",
+      "generated": "2026-10-15T07:31:26.870Z",
       "verdict": "PASS",
       "browser": "Chrome/155.0.8059.79",
       "filesBesideTheDocuments": 2062,
@@ -369,7 +369,7 @@
         "files": 2062,
         "pages": 502,
         "references": 164961,
-        "localReferences": 152194,
+        "localReferences": 151191,
         "frames": 505,
         "canonical": 500,
         "businessForms": 9,
@@ -381,7 +381,7 @@
         },
         "liveLinks": 601,
         "liveAddressLinks": 85,
-        "listingServiceLinks": 510,
+        "listingServiceLinks": 1514,
         "outsideLinks": 4605,
         "panels": 49,
         "filmNotes": 14,
@@ -426,7 +426,7 @@
       }
     },
     "selftest": {
-      "generated": "2026-10-15T05:47:06.419Z",
+      "generated": "2026-10-15T07:22:13.574Z",
       "defects": 117,
       "plants": 132,
       "caught": 132,
@@ -447,28 +447,6 @@
         "browser": 20,
         "formTrials": 12,
         "publicAddress": 18
-      }
-    },
-    "publicAddress": {
-      "generated": "2026-10-15T06:58:25.669Z",
-      "verdict": "PASS",
-      "pages": 501,
-      "files": 185,
-      "identical": 686,
-      "notFound": {
-        "status": 404,
-        "isThePage": true
-      },
-      "forms": {
-        "targets": 11,
-        "trials": 88,
-        "controlsSeen": 22,
-        "enterPressed": 22,
-        "buttonClicked": 22
-      },
-      "search": {
-        "results": 20,
-        "outside": 0
       }
     },
     "gate": {
