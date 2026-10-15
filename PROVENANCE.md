@@ -52,6 +52,15 @@ Made for this redesign. None of those in this copy shows a person, a whole house
 | `still-dusk-wall-d` | still | Higgsfield, higgsfield-ai/soul/v2/standard | not in this copy | a candidate that was not chosen, or an earlier version |
 | `still-dusk-wall-e` | still | Higgsfield, higgsfield-ai/soul/v2/standard | first and last frame of a loop | a lit plaster wall with two palms beside a still pool, at dusk |
 | `loop-dusk-wall` | loop | Higgsfield, kling-video/o3/first-last-frame | 1 page | a lit plaster wall with two palms beside a still pool, at dusk |
+| `still-bg-palms-a` | still | Higgsfield, higgsfield-ai/soul/v2/standard | not in this copy | a candidate that was not chosen, or an earlier version |
+| `still-bg-palms-b` | still | Higgsfield, higgsfield-ai/soul/v2/standard | first and last frame of a loop | the shadows of palm fronds on a white wall |
+| `still-bg-water-a` | still | Higgsfield, higgsfield-ai/soul/v2/standard | not in this copy | a candidate that was not chosen, or an earlier version |
+| `still-bg-water-b` | still | Higgsfield, higgsfield-ai/soul/v2/standard | first and last frame of a loop | the light of a pool on a white ceiling |
+| `still-bg-blinds-a` | still | Higgsfield, higgsfield-ai/soul/v2/standard | first and last frame of a loop | the light of window blinds on a white wall |
+| `still-bg-blinds-b` | still | Higgsfield, higgsfield-ai/soul/v2/standard | not in this copy | a candidate that was not chosen, or an earlier version |
+| `loop-bg-palms` | loop | Higgsfield, kling-video/o3/first-last-frame | 39 pages | the shadows of palm fronds on a white wall |
+| `loop-bg-water` | loop | Higgsfield, kling-video/o3/first-last-frame | 50 pages | the light of a pool on a white ceiling |
+| `loop-bg-blinds` | loop | Higgsfield, kling-video/o3/first-last-frame | 200 pages | the light of window blinds on a white wall |
 
 Each loop was made from its still as first and last frame, and plays silently. The files are served from
 `assets/generated/`, written again from the generated originals, so that they carry no description fields
