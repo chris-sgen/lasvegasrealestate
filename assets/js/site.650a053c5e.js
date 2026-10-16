@@ -36,6 +36,13 @@
     var open = panels.filter(function (d) { return d.open; })[0];
     if (open) { open.open = false; var s = $('summary', open); if (s) s.focus(); }
   });
+  var menu = $('.menu');
+  var fetchPanelPictures = function () {
+    if (!menu || getComputedStyle(menu).display === 'none' || (navigator.connection && navigator.connection.saveData)) return;
+    $$('[data-panel] img[loading="lazy"]').forEach(function (img) { img.loading = 'eager'; });
+  };
+  if (doc.readyState === 'complete') fetchPanelPictures(); else window.addEventListener('load', fetchPanelPictures);
+  if (menu) menu.addEventListener('pointerenter', fetchPanelPictures);
   var drawer = $('[data-drawer]');
   var opener = $('[data-drawer-open]');
   if (drawer && opener) {
