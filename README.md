@@ -58,7 +58,7 @@ pages read for the redesign. On the 352 addresses both have:
 The hidden block (on 364 of the 381 live pages read) holds 109 links to
 82 other sites, placed off the screen; it should also be taken off the live site. The handoff build also carries a sitemap of 305 pages, an
 `llms.txt` of the same 305, 172 forwards of the live site's addresses, and structured
-data on all 513 pages; none of these files ship here. The page also lists what is left for the business
+data on all 513 pages; none of them ships here (this copy has its own sitemap and robots.txt, see 8). The page also lists what is left for the business
 (177 titles over 60 characters, 26 indexable pages without a description, link-preview
 pictures under 1200 x 630).
 
@@ -66,7 +66,7 @@ pictures under 1200 x 630).
 
 These figures were measured by the pipeline and filled in from the measurement files. The first
 seven rows come from the handoff build's audit. The others were read again from this tree. The
-browser figures were measured first on a local server that serves this tree under `/lasvegasrealestate/`, then again at the public URL (https://chris-sgen.github.io/lasvegasrealestate/). On the local server the browser could reach no other host, so the map frames did not load; at the public URL they loaded from Google, the only other host the pages asked for. The tree has 503 pages: the 501 rebuilt ones plus `/404.html` and `/search/`, which the build makes itself. Tested in headless Chrome only.
+browser figures were measured on a local server that serves this tree under `/lasvegasrealestate/`, an emulation of the way GitHub Pages serves a project site; it had not yet been re-measured at the public URL when this file was written. On the local server the browser could reach no other host, so the map frames did not load. The tree has 503 pages: the 501 rebuilt ones plus `/404.html` and `/search/`, which the build makes itself. Tested in headless Chrome only.
 
 | Check | Result |
 | --- | --- |
@@ -77,14 +77,14 @@ browser figures were measured first on a local server that serves this tree unde
 | The site search against the pages | PASS: 67 queries, 306 entries, 0 failed |
 | The forms of the handoff build | 106 of 106 checks passed on 9 form pages (in this preview the forms are disabled; see *Hardening*) |
 | The pipeline's gate (`sr-gate.mjs`, not part of this repository) | 20 PASS · 8 FAIL · 1 UNPROVEN. The verdict is NOT-READY, and the handoff build was packaged with a recorded override. Each check that is not green is explained below |
-| Preview hardening, read again from the shipped bytes | **503 pages, 2,081 files besides the three documents: 0 findings.** 9 forms of the business and 503 sign-up boxes inert; 1 site search form that sends a GET to `/search/` and 2 listing search forms that send a GET to `sale.lasvegasrealestate.com`; 506 map frames, each carrying `referrerpolicy="no-referrer"`; no part of the listing vendor's widget; no film of a video site; no file and no reference of a picture or film this copy does not show; the footer's copyright line once on every page, leading to the live site; a line inside each listing search, under its search bar; no comment in the stylesheets or the script |
-| Reference audit: every local `href` / `src` / `srcset` / `url()` / video-loop source / search-index address | **154,471 local references, each to a file of this tree in the same capitals**; none outside `404.html` written from the root of the host (`404.html` names its files under `/lasvegasrealestate/`, because GitHub Pages serves it at any depth) |
+| Preview hardening, read again from the shipped bytes | **503 pages, 2,082 files besides the three documents: 0 findings.** 9 forms of the business and 503 sign-up boxes inert; 1 site search form that sends a GET to `/search/` and 2 listing search forms that send a GET to `sale.lasvegasrealestate.com`; 506 map frames, each carrying `referrerpolicy="no-referrer"`; no part of the listing vendor's widget; no film of a video site; no file and no reference of a picture or film this copy does not show; the footer's copyright line once on every page, leading to the live site; a line inside each listing search, under its search bar; no comment in the stylesheets or the script |
+| Reference audit: every local `href` / `src` / `srcset` / `url()` / video-loop source / search-index address | **154,473 local references, each to a file of this tree in the same capitals**; none outside `404.html` written from the root of the host (`404.html` names its files under `/lasvegasrealestate/`, because GitHub Pages serves it at any depth) |
 | Binary files read for metadata | 1,540 WebP, 18 MP4, 8 WOFF2: no EXIF, XMP or C2PA; the WebP files carry only the encoder's stock colour profile, whose only words are "sRGB" and its maker's line ("Google Inc. 2016"); the MP4 files carry no creation time and no tag but the encoder's name; each font file has the licence text of its project beside it |
-| Rendering under `/lasvegasrealestate/`, every page except `404.html` at 1440 and 390 px, every picture asked for | **1,004 page loads: 0 failed requests on this site, 0 requests outside `/lasvegasrealestate/`, 0 requests to another host but the map frames' (blocked here), 0 requests that are not a GET, 0 script errors, 0 broken pictures, 0 pages that scroll sideways at 390, nothing kept in the browser**; 8,840 pictures loaded; every note and stand-in panel shown; `404.html` loaded at depth with its stylesheet. At the public URL: 502 pages and 192 other files asked for, 694 identical to this tree, byte for byte; an unknown address answered with the not-found page; 10 loads in a browser with the same checks (there the map frames loaded from Google) |
+| Rendering under `/lasvegasrealestate/`, every page except `404.html` at 1440 and 390 px, every picture asked for | **1,004 page loads: 0 failed requests on this site, 0 requests outside `/lasvegasrealestate/`, 0 requests to another host but the map frames' (blocked here), 0 requests that are not a GET, 0 script errors, 0 broken pictures, 0 pages that scroll sideways at 390, nothing kept in the browser**; 8,840 pictures loaded; every note and stand-in panel shown; `404.html` loaded at depth with its stylesheet |
 | Video loop | 294 pages with a loop (`/55-retirement-communities-siena/`, `/a-history-of-summerlin-in-las-vegas-nevada/`, `/blog/`, `/blog/page/10/`, `/blog/page/11/`, `/blog/page/12/` and 288 more): it played from inside `/lasvegasrealestate/`, muted, without controls |
 | Site search | The query "summerlin" was answered with results: the 20 the page shows first (it shows them 20 at a time), every one inside `/lasvegasrealestate/` |
-| Forms, each tried with scripts on and off | **11 forms (9 of the business, and the sign-up box on 2 pages): Enter pressed in a field and the form's button clicked, as shipped (22 trials), sent nothing and went nowhere.** Two reduced configurations were also tried: only the form's attributes (`method="dialog"`, `action=""`, `onsubmit`) left, with a live submit button added; and those attributes taken off with a real address put back, leaving the hidden disabled button and field. Nothing was sent in either. With every safeguard taken off (22 control trials) every form was seen to submit, so the trials can see a submission. The same trials at the public URL: 88, with the same result (their controls posted to an unused address of the testing machine, so nothing was sent to the public host) |
-| The checker itself | `preview-selftest.mjs` planted 119 defects in a copy of this tree; 134 of the 134 reports they must give were given. 112 of the 120 rules that read the files are exercised by a plant; the rules of the browser are proved by their controls (above) |
+| Forms, each tried with scripts on and off | **11 forms (9 of the business, and the sign-up box on 2 pages): Enter pressed in a field and the form's button clicked, as shipped (22 trials), sent nothing and went nowhere.** Two reduced configurations were also tried: only the form's attributes (`method="dialog"`, `action=""`, `onsubmit`) left, with a live submit button added; and those attributes taken off with a real address put back, leaving the hidden disabled button and field. Nothing was sent in either. With every safeguard taken off (22 control trials) every form was seen to submit, so the trials can see a submission |
+| The checker itself | `preview-selftest.mjs` planted 124 defects in a copy of this tree; 139 of the 139 reports they must give were given. 117 of the 129 rules that read the files are exercised by a plant; the rules of the browser are proved by their controls (above) |
 
 **Why the checks of the gate that are not green are not green:**
 
@@ -103,9 +103,12 @@ browser figures were measured first on a local server that serves this tree unde
 `PROVENANCE.json` gives the counts.
 
 1. **`noindex, nofollow, noarchive, nosnippet, noimageindex` on every page.** This is the only control here that search engines honour. It
-   is a request; the major ones follow it. A `robots.txt` with `Disallow: /` is also shipped,
-   but it has **no effect** here: crawlers read `robots.txt` only at the host root
-   (`chris-sgen.github.io/robots.txt`), not under `/lasvegasrealestate/`. GitHub Pages cannot send an `X-Robots-Tag`
+   is a request; the major ones follow it. This copy's own `robots.txt` (`Allow: /`, and the address
+   of its sitemap) and `sitemap.xml` are shipped too (see 8). The `robots.txt` allows crawling on purpose: a
+   crawler that a `robots.txt` turns away never reads a page's noindex tag, and can still list its address.
+   Crawlers read `robots.txt` only at the host root (`chris-sgen.github.io/robots.txt`), not under
+   `/lasvegasrealestate/`, so this one is not read by them in any case; the sitemap can be given to a search tool by its
+   address. GitHub Pages cannot send an `X-Robots-Tag`
    header either. That leaves the non-HTML files (the pictures, the videos, the search index) with no index
    control of their own; `noimageindex` asks search engines not to index the pictures a page shows, and
    those files are linked only from pages marked `nofollow`. The repository itself is public: github.com
@@ -154,8 +157,11 @@ browser figures were measured first on a local server that serves this tree unde
    logo, address, phone number and words. There are four kinds of note on the pages: the notices of the forms (4),
    the line under the search bar of each listing search (4), 14 notes where a film is not shown (11), and the note on the live
    site's terms of use and privacy policy (15).
-8. `sitemap.xml`, `llms.txt` and `_redirects` are not shipped: the first two advertise the business's real URLs to
-   crawlers, and GitHub Pages ignores the third. `robots.txt` is replaced (see 1).
+8. **This copy's own `sitemap.xml` and `robots.txt`.** The handoff build's `sitemap.xml` and `llms.txt`
+   advertise the business's real addresses to crawlers, and GitHub Pages ignores `_redirects`: none of the three
+   is shipped. In their place this copy has a sitemap of its own addresses: the 305 pages the handoff
+   build's sitemap lists (285 of them with the date of their last change that it gives) and the SEO page,
+   306 in all, every one a page that carries the noindex tag (1). `robots.txt` is replaced (see 1).
 9. **The map frames use no API key.** All 506 (on 503 pages) are keyless Google Maps embeds. 505 show the
    business's address: one in the closing band of every page, 2 more in the text of a page. 1 shows another place that a page's text names.
 10. `<link rel="canonical">` is **kept** pointing at the live site's page. That is the usual signal for a duplicate,
@@ -241,4 +247,5 @@ their files by relative addresses, so the folder works at any path; only `404.ht
 - `assets/`: the stylesheets, the script, the search index, the fonts and their licences, the pictures of the live
   site (`assets/img/`) and the generated pictures and loops (`assets/generated/`).
 - `PROVENANCE.md` / `PROVENANCE.json`: where everything came from, and the counts of the hardening.
+- `sitemap.xml`: this copy's own addresses (see 8).
 - `robots.txt`, `.nojekyll`, `.gitattributes`, `.gitignore`: files for the host and the repository.
