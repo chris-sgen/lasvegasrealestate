@@ -745,6 +745,28 @@
         "publicAddress": 18
       }
     },
+    "publicAddress": {
+      "generated": "2026-10-23T09:20:30.516Z",
+      "verdict": "PASS",
+      "pages": 502,
+      "files": 193,
+      "identical": 695,
+      "notFound": {
+        "status": 404,
+        "isThePage": true
+      },
+      "forms": {
+        "targets": 11,
+        "trials": 88,
+        "controlsSeen": 22,
+        "enterPressed": 22,
+        "buttonClicked": 22
+      },
+      "search": {
+        "results": 20,
+        "outside": 0
+      }
+    },
     "gate": {
       "verdict": "NOT-READY",
       "pass": 19,
