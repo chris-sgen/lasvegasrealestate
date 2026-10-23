@@ -9,3 +9,9 @@
 .news [data-preview-formstatus], .site-footer [data-preview-formstatus] { color: var(--on-dark-2); }
 [data-preview="inert"] .btn[disabled], [data-preview="inert"] .btn[disabled]:hover { opacity: 0.55; cursor: not-allowed; transform: none; box-shadow: none; filter: none; }
 .band--video [data-preview-note], .narrow > [data-preview-note] { margin: 0; }
+.seo-code { margin: 0.75rem 0 1.25rem; padding: 0.9rem 1rem; overflow-x: auto; max-height: 28rem; background: var(--night); color: var(--on-dark); font: 400 var(--t-xs)/1.55 var(--font-mono); white-space: pre; tab-size: 2; }
+.seo-code code { font: inherit; color: inherit; background: none; padding: 0; }
+.seo-len { color: var(--text-3); font-size: var(--t-xs); white-space: nowrap; }
+.seo-every > summary { cursor: pointer; padding-block: 0.75rem; font-weight: 700; color: var(--blue-deep); }
+.seo-every[open] > summary { margin-bottom: 0.75rem; }
+.prose td code, .prose li code { overflow-wrap: anywhere; }

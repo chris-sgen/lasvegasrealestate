@@ -17,8 +17,8 @@
     "picturesWithNoCopy": 474
   },
   "pages": {
-    "total": 502,
-    "rebuilt": 500,
+    "total": 503,
+    "rebuilt": 501,
     "madeByTheBuild": [
       "/404.html",
       "/search/"
@@ -26,12 +26,12 @@
   },
   "hardening": {
     "robots": "noindex, nofollow, noarchive, nosnippet, noimageindex",
-    "robotsTagPages": 502,
-    "jsonLdBlocksRemoved": 1530,
-    "pictureTagsRemoved": 1004,
-    "iconLinksRemoved": 1506,
-    "cardTitlesMarked": 502,
-    "twitterDescriptionsAdded": 159,
+    "robotsTagPages": 503,
+    "jsonLdBlocksRemoved": 1531,
+    "pictureTagsRemoved": 1006,
+    "iconLinksRemoved": 1509,
+    "cardTitlesMarked": 503,
+    "twitterDescriptionsAdded": 160,
     "formsOfTheBusiness": {
       "forms": 9,
       "pages": [
@@ -46,9 +46,9 @@
         "/sell-residential-property/"
       ]
     },
-    "signUpBoxes": 502,
-    "buttonsDisabled": 511,
-    "guardsAdded": 1022,
+    "signUpBoxes": 503,
+    "buttonsDisabled": 512,
+    "guardsAdded": 1024,
     "listingWidgetsNotLoaded": 49,
     "pagesWithAStandInPanel": 49,
     "wrapperPagesNotShipped": [
@@ -324,7 +324,7 @@
         "what": "e-mail campaign click tracker"
       }
     ],
-    "footerCopyrightLinesKept": 502,
+    "footerCopyrightLinesKept": 503,
     "listingSearchLines": 2,
     "liveTextNotes": [
       "/privacy-terms-policy/"
@@ -336,10 +336,11 @@
         "to": "www.naturehills.com"
       }
     ],
-    "mapFrames": 505,
+    "mapFrames": 506,
     "canonicalRemoved": [
       "/404.html",
-      "/search/"
+      "/search/",
+      "/seo/"
     ],
     "notShipped": [
       "llms.txt",
@@ -361,28 +362,28 @@
   },
   "verification": {
     "local": {
-      "generated": "2026-10-16T04:01:13.721Z",
+      "generated": "2026-10-23T00:34:09.658Z",
       "verdict": "PASS",
-      "browser": "Chrome/155.0.8059.79",
-      "filesBesideTheDocuments": 2080,
+      "browser": "Chrome/155.0.8059.85",
+      "filesBesideTheDocuments": 2081,
       "count": {
-        "files": 2080,
-        "pages": 502,
-        "references": 166984,
-        "localReferences": 153214,
-        "frames": 505,
+        "files": 2081,
+        "pages": 503,
+        "references": 168264,
+        "localReferences": 154471,
+        "frames": 506,
         "canonical": 500,
         "businessForms": 9,
         "formPages": 9,
-        "newsForms": 502,
+        "newsForms": 503,
         "searchForms": {
           "sale.lasvegasrealestate.com": 2,
           "this copy's own search": 1
         },
-        "liveLinks": 601,
+        "liveLinks": 602,
         "liveAddressLinks": 85,
-        "listingServiceLinks": 1514,
-        "outsideLinks": 4605,
+        "listingServiceLinks": 1517,
+        "outsideLinks": 4613,
         "panels": 49,
         "filmNotes": 14,
         "videoPages": 0,
@@ -390,10 +391,10 @@
         "mp4": 18,
         "woff2": 8,
         "fontLicences": 3,
-        "textFiles": 514,
+        "textFiles": 515,
         "indexEntries": 306,
-        "loads": 1003,
-        "picturesLoaded": 8832,
+        "loads": 1005,
+        "picturesLoaded": 8840,
         "loops": 294,
         "formTrials": 88,
         "listingNotes": 2,
@@ -437,8 +438,8 @@
         "/category/las-vegas-real-estate-blog/page/10/",
         "/category/las-vegas-real-estate-blog/page/11/",
         "/category/las-vegas-real-estate-blog/page/2/",
-        "/category/las-vegas-real-estate-blog/page/4/",
         "/category/las-vegas-real-estate-blog/page/3/",
+        "/category/las-vegas-real-estate-blog/page/4/",
         "/category/las-vegas-real-estate-blog/page/5/",
         "/category/las-vegas-real-estate-blog/page/6/",
         "/category/las-vegas-real-estate-blog/page/7/",
@@ -502,8 +503,8 @@
         "/homes-in-north-las-vegas/eldorado-north-las-vegas/",
         "/homes-in-north-las-vegas/hidden-canyon-north-las-vegas/",
         "/homes-in-north-las-vegas/",
-        "/homes-in-north-las-vegas/rancho-del-norte-north-las-vegas/",
         "/homes-in-north-las-vegas/sedona-ranch/",
+        "/homes-in-north-las-vegas/rancho-del-norte-north-las-vegas/",
         "/homes-in-north-las-vegas/tule-springs-north-las-vegas/",
         "/homes-in-north-las-vegas/valley-vista-north-las-vegas/",
         "/homes-in-north-las-vegas/vista-del-sol-north-las-vegas/",
@@ -561,8 +562,8 @@
         "/tag/anthem/",
         "/tag/basic-federal-housing-protections-information/",
         "/tag/boulder-city-nv-real-estate-snapshot/",
-        "/tag/buyers-closing-day-problems/",
         "/tag/buy-las-vegas-real-estate/",
+        "/tag/buyers-closing-day-problems/",
         "/tag/buying-a-historic-home/",
         "/tag/buying-a-las-vegas-home/",
         "/tag/buying-a-new-home-by-the-end-of-the-year/",
@@ -572,8 +573,8 @@
         "/tag/centennial-hills/",
         "/tag/chimney-care-guide/",
         "/tag/commercial-real-estate-las-vegas/",
-        "/tag/common-types-of-home-light-bulbs/",
         "/tag/common-real-estate-terms/",
+        "/tag/common-types-of-home-light-bulbs/",
         "/tag/common-ways-to-heat-a-home/",
         "/tag/credit-score/",
         "/tag/defer-my-mortgage-payment/",
@@ -587,8 +588,8 @@
         "/tag/down-payment-savings-tips/",
         "/tag/earnest-money-deposit/",
         "/tag/first-time-home-buyer/",
-        "/tag/first-time-home-buyers/",
         "/tag/first-time-las-vegas-home-buyer/",
+        "/tag/first-time-home-buyers/",
         "/tag/first-time-las-vegas-homebuyer/",
         "/tag/grand-legacy/",
         "/tag/green-valley-ranch-for-sale/",
@@ -632,10 +633,10 @@
         "/tag/las-vegas-homeowners/",
         "/tag/las-vegas-homes-for-sale/",
         "/tag/las-vegas-house-buyers/",
-        "/tag/las-vegas-housing-market/",
         "/tag/las-vegas-housing-market-sentiment/",
-        "/tag/las-vegas-landlord/",
+        "/tag/las-vegas-housing-market/",
         "/tag/las-vegas-multi-family-syndication/",
+        "/tag/las-vegas-landlord/",
         "/tag/las-vegas-open-house/",
         "/tag/las-vegas-real-estate-news/",
         "/tag/las-vegas-real-estate-snapshot/",
@@ -645,8 +646,8 @@
         "/tag/lasvegasmultifamily/",
         "/tag/lasvegasrealestate-com/",
         "/tag/lasvegasrealestate/",
-        "/tag/lasvegasrenters/",
         "/tag/lasvegasrentals/",
+        "/tag/lasvegasrenters/",
         "/tag/legacy-community/",
         "/tag/legacy-henderson-nevada/",
         "/tag/legacy-in-henderson-nevada/",
@@ -690,8 +691,8 @@
         "/tag/siena-55/",
         "/tag/siena/",
         "/tag/sienainlasvegas/",
-        "/tag/sienainsummerlin/",
         "/tag/spring/",
+        "/tag/sienainsummerlin/",
         "/tag/stuck-at-home/",
         "/tag/summer-gardening-condo-owners/",
         "/tag/summerlin/",
@@ -714,14 +715,14 @@
       }
     },
     "selftest": {
-      "generated": "2026-10-16T03:37:06.999Z",
-      "defects": 117,
-      "plants": 132,
-      "caught": 132,
+      "generated": "2026-10-23T00:34:30.194Z",
+      "defects": 119,
+      "plants": 134,
+      "caught": 134,
       "rules": {
-        "all": 169,
-        "static": 119,
-        "staticExercised": 111,
+        "all": 170,
+        "static": 120,
+        "staticExercised": 112,
         "staticNotExercised": [
           "the script cannot be read for comments",
           "the search index cannot be read",
@@ -735,28 +736,6 @@
         "browser": 20,
         "formTrials": 12,
         "publicAddress": 18
-      }
-    },
-    "publicAddress": {
-      "generated": "2026-10-16T04:59:08.810Z",
-      "verdict": "PASS",
-      "pages": 501,
-      "files": 192,
-      "identical": 693,
-      "notFound": {
-        "status": 404,
-        "isThePage": true
-      },
-      "forms": {
-        "targets": 11,
-        "trials": 88,
-        "controlsSeen": 22,
-        "enterPressed": 22,
-        "buttonClicked": 22
-      },
-      "search": {
-        "results": 20,
-        "outside": 0
       }
     },
     "gate": {
